@@ -1,0 +1,167 @@
+
+1. Find the average score
+
+I: student score
+   student 
+   
+P: sum student score
+   sum student total +1
+   
+out: sum the student score / total of student
+
+
+//student_score 
+
+      import java.util.Scanner;
+
+      public class average_score {
+
+      public static void main(String args[])
+  
+       
+
+//sum total_score//
+      int student_score = 0;
+      int n = 0;
+
+   Scanner student_score = new Scanner(System.in);
+
+   int student_score = sc.nextInt();  
+
+   while(student_score >= 0) {
+
+     total += student_score;
+     n++;
+
+     student_score = sc.nextInt();
+   }
+
+//student_total//
+   
+   int student_total=0
+   int n=0
+   
+   if (student_total[count]!= +1)
+   
+   {
+     count++;
+	 
+	 }
+	 
+// use the counter from the loop above to run a "for loop" to sum student_score.//
+
+    for(index = 0;index < count; index++)
+	
+	{
+	    sum = sum + student_score[index];
+		
+		}
+		
+//Find the average score of student_score thus far using the sum divided by the counter//
+
+   ave=sum / count;
+   
+//Display the sum of the scores
+
+     System.out.println();
+	 System.out.println("The sum of the Student_scores is:" +sum);
+
+//Display the average score
+   
+     System.out.println("The average score is :" + ave);
+	 
+	 
+   
+  
+  }//closing main method
+  }//closing class header
+
+
+
+
+***************************************************************************
+
+2. How much water runs off the roof
+
+I: The roof dimensions of footprint 50'x20' roof is 600"x240"
+
+P: multiply the roof dimensions inches
+   count number of inches of rainfall
+   Total of inches multiply 231
+   
+Out: multiply roof dimension in inches x Total of rainfall / 231
+
+//How to calculate gallons of rainwater that can be collected from a roof
+In order to figure out the size of the tank you will need to store the rainfall collected in your rainwater
+harvesting system, it is important to know how large the roof is. Most rain events are 1 inch or less.
+Method
+1.Measure the length and the width of the roof but check where the downspouts are to find what part
+of the roof drains to each downspout when there is more than one downspout. For example, if the roof
+is pitched in 2 directions and you are only able to use the downspout on one side then just measure the
+part of the roof that drains to the downspout you will use.
+2.Every square foot of roof space collects .6 gallons of water in a 1 inch rainfall.
+3.To account for losses and inefficiency, you can expect to collect about 75% of the actual rainfall so
+your calculation should be multiplied by .75
+Formula
+Length of roof ____________ feet
+X width of roof ___________ feet
+X.6gallons per square ft
+X .75
+X __________________inches of rainfall
+= _______________________gallons of rainfall collected//
+
+
+   public class totalwaterrun {
+
+   public static void main(String twr[])
+   
+   {
+   
+//calculate roof dimensions "z" of footprint 50'x20' roof is 600"x240"//
+
+    int x=600;
+	int y=240;
+	int z=x*y;
+	
+	
+	
+//count number of inches of rainfall "t"//
+
+ do
+ {
+     t[count] = number;
+	 
+	 if (t[count] =0)
+	 
+	 { 
+	 
+	    count++;
+		
+		}
+		}
+		
+		for {sum=sum+t;
+		}
+		
+ 
+
+//multiply roof dimension in inches x Total of rainfall / 231//
+
+    int m=z*t/231;
+
+	 System.out.println("Roof Demensions:" +z);
+	 System.out.println("Total inches of rainfall:" +t);
+	 System.out.println("How much water runs off the roof:" +m);
+	 
+
+   
+   
+   
+   
+}//closing main method//
+}//closing class header//
+
+
+
+
+
